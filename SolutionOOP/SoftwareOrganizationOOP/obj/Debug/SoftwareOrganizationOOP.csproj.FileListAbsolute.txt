@@ -1,0 +1,5 @@
+c:\users\2121000\documents\visual studio 2013\Projects\SolutionOOP\SoftwareOrganizationOOP\obj\Debug\SoftwareOrganizationOOP.csprojResolveAssemblyReference.cache
+c:\users\2121000\documents\visual studio 2013\Projects\SolutionOOP\SoftwareOrganizationOOP\bin\Debug\SoftwareOrganizationOOP.dll
+c:\users\2121000\documents\visual studio 2013\Projects\SolutionOOP\SoftwareOrganizationOOP\bin\Debug\SoftwareOrganizationOOP.pdb
+c:\users\2121000\documents\visual studio 2013\Projects\SolutionOOP\SoftwareOrganizationOOP\obj\Debug\SoftwareOrganizationOOP.dll
+c:\users\2121000\documents\visual studio 2013\Projects\SolutionOOP\SoftwareOrganizationOOP\obj\Debug\SoftwareOrganizationOOP.pdb
