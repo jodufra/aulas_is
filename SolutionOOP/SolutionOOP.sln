@@ -10,6 +10,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplicationOOP", "Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftwareOrganizationOOP", "SoftwareOrganizationOOP\SoftwareOrganizationOOP.csproj", "{A49E05FD-8FDA-49F9-BEA7-B56B63903ECB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormsApplicationOOP", "FormsApplicationOOP\FormsApplicationOOP.csproj", "{F2D8DA3A-528F-45AC-9B2F-A3C54E9AA5B9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A49E05FD-8FDA-49F9-BEA7-B56B63903ECB} = {A49E05FD-8FDA-49F9-BEA7-B56B63903ECB}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +29,10 @@ Global
 		{A49E05FD-8FDA-49F9-BEA7-B56B63903ECB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A49E05FD-8FDA-49F9-BEA7-B56B63903ECB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A49E05FD-8FDA-49F9-BEA7-B56B63903ECB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2D8DA3A-528F-45AC-9B2F-A3C54E9AA5B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2D8DA3A-528F-45AC-9B2F-A3C54E9AA5B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2D8DA3A-528F-45AC-9B2F-A3C54E9AA5B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2D8DA3A-528F-45AC-9B2F-A3C54E9AA5B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

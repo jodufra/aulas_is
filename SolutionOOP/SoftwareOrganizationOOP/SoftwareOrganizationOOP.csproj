@@ -39,6 +39,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Contexts\PersonsContext.cs" />
+    <Compile Include="Exceptions\ExPersonDoNotExists.cs" />
+    <Compile Include="Exceptions\ExPersonAlreadyExists.cs" />
     <Compile Include="Interfaces\IPrintable.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Employee.cs" />

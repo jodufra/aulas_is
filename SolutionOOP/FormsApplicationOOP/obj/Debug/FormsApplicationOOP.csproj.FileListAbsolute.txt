@@ -1,0 +1,12 @@
+C:\Users\Joel\Desktop\isaulas\SolutionOOP\FormsApplicationOOP\bin\Debug\FormsApplicationOOP.exe.config
+C:\Users\Joel\Desktop\isaulas\SolutionOOP\FormsApplicationOOP\bin\Debug\FormsApplicationOOP.exe
+C:\Users\Joel\Desktop\isaulas\SolutionOOP\FormsApplicationOOP\bin\Debug\FormsApplicationOOP.pdb
+C:\Users\Joel\Desktop\isaulas\SolutionOOP\FormsApplicationOOP\bin\Debug\SoftwareOrganizationOOP.dll
+C:\Users\Joel\Desktop\isaulas\SolutionOOP\FormsApplicationOOP\bin\Debug\SoftwareOrganizationOOP.pdb
+C:\Users\Joel\Desktop\isaulas\SolutionOOP\FormsApplicationOOP\obj\Debug\FormsApplicationOOP.csprojResolveAssemblyReference.cache
+C:\Users\Joel\Desktop\isaulas\SolutionOOP\FormsApplicationOOP\obj\Debug\FormsApplicationOOP.IndexForm.resources
+C:\Users\Joel\Desktop\isaulas\SolutionOOP\FormsApplicationOOP\obj\Debug\FormsApplicationOOP.Forms.PersonIndexForm.resources
+C:\Users\Joel\Desktop\isaulas\SolutionOOP\FormsApplicationOOP\obj\Debug\FormsApplicationOOP.Properties.Resources.resources
+C:\Users\Joel\Desktop\isaulas\SolutionOOP\FormsApplicationOOP\obj\Debug\FormsApplicationOOP.csproj.GenerateResource.Cache
+C:\Users\Joel\Desktop\isaulas\SolutionOOP\FormsApplicationOOP\obj\Debug\FormsApplicationOOP.exe
+C:\Users\Joel\Desktop\isaulas\SolutionOOP\FormsApplicationOOP\obj\Debug\FormsApplicationOOP.pdb
