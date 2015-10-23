@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bookstore>
+  <book category="children" bookFormat="paperback" isbn="1">
+    <title>title1</title>
+    <author>author1</author>
+    <year>1900</year>
+    <price>1</price>
+    <rate>1</rate>
+  </book>
+  <book category="web" bookFormat="hard back" isbn="-9223372036854775807">
+    <title>title2</title>
+    <author>author2</author>
+    <year>0001</year>
+    <price>-792</price>
+    <rate>5</rate>
+  </book>
+  <book category="science fiction" bookFormat="paperback" isbn="9223372036854775807">
+    <title>title3</title>
+    <author>author3</author>
+    <year>9999</year>
+    <price>79228162514264337593543950335</price>
+    <rate>2</rate>
+  </book>
+</bookstore> 

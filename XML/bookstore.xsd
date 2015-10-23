@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="bookstore" type="bookStoreType">
+  </xs:element>
+  
+  <!--Book element-->
+  <xs:complexType name="bookStoreType">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" name="book" type="bookType">
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!--Chridren element-->
+  <xs:complexType name="bookType">
+    <xs:sequence>
+      <xs:element name="title" type="xs:string" />
+      <xs:element name="author" type="xs:string" />
+      <xs:element name="year" type="yearType" />
+      <xs:element name="price" type="xs:decimal" />
+      <xs:element minOccurs="0" name="rate" type="rateType" />
+    </xs:sequence>
+    <xs:attribute name="category" type="categoryType" use="required" />
+    <xs:attribute name="bookFormat" type="bookFormatType" use="required"></xs:attribute>
+    <xs:attribute name="isbn" type="isbnType" use="optional"></xs:attribute>
+  </xs:complexType>
+
+  <!--Category Restriction-->
+  <xs:simpleType name="categoryType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="children"></xs:enumeration>
+      <xs:enumeration value="web"></xs:enumeration>
+      <xs:enumeration value="science fiction"></xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!--Year Restriction-->
+  <xs:simpleType name="yearType">
+    <xs:restriction base="xs:gYear">
+      <xs:pattern value="[0-9][0-9][0-9][0-9]"></xs:pattern>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!--Rate Restriction-->
+  <xs:simpleType name="rateType">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="1"></xs:minInclusive>
+      <xs:maxInclusive value="5"></xs:maxInclusive>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!--Book Format Restriction-->
+  <xs:simpleType name="bookFormatType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="paperback"></xs:enumeration>
+      <xs:enumeration value="hard back"></xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="isbnType">
+    <xs:restriction base="xs:long">
+    </xs:restriction>
+  </xs:simpleType>
+
+
+</xs:schema>

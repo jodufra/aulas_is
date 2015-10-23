@@ -23,6 +23,8 @@ namespace FormsApplicationOOP.Forms
             this.type = type;
             InitializeComponent();
             InitPersonsList();
+
+            parent.Hide();
         }
 
         public void InitPersonsList()
@@ -39,25 +41,33 @@ namespace FormsApplicationOOP.Forms
 
         private void personAddBtn_Click(object sender, EventArgs e)
         {
-
+            new PersonDetailForm(this, type).Show();
         }
 
         private void personEditBtn_Click(object sender, EventArgs e)
         {
-
+            foreach (var item in personsList.SelectedIndices)
+            {
+                var index = Int32.Parse(item.ToString());
+                var person = PersonsContext.Current.Persons[type].ElementAt(index);
+                if (person != null)
+                    new PersonDetailForm(this, type, person).Show();
+            }  
         }
 
         private void personRemoveBtn_Click(object sender, EventArgs e)
         {
             string confirmTitle = "Confirm Delete!!";
             string personType = type.ToString();
-            string confirmMsg = "Are you sure to delete this " + personType.Substring(personType.LastIndexOf("."), personType.Length - 1) + " ??";
+            //string confirmMsg = "Are you sure to delete this " + personType.Substring(personType.LastIndexOf("."), personType.Length - 1) + " ?";
+            string confirmMsg = "Are you sure to delete this " + personType + " ?";
             var confirmResult = MessageBox.Show(confirmMsg, confirmTitle, MessageBoxButtons.YesNo);
             if (confirmResult == DialogResult.Yes)
             {
                 foreach (var item in personsList.SelectedItems)
                 {
-                    var person = PersonsContext.Current.Persons[type].Where(p => p.Print().Equals(item.ToString())).FirstOrDefault();
+                    var index = Int32.Parse(item.ToString());
+                    var person = PersonsContext.Current.Persons[type].ElementAt(index);
                     if (person != null)
                         PersonsContext.Current.Persons.RemovePerson(person);
                 }

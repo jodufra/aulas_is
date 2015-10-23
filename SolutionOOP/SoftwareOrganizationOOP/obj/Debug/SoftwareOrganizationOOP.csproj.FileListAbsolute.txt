@@ -7,3 +7,12 @@ C:\Users\Joel\Desktop\isaulas\SolutionOOP\SoftwareOrganizationOOP\bin\Debug\Soft
 C:\Users\Joel\Desktop\isaulas\SolutionOOP\SoftwareOrganizationOOP\bin\Debug\SoftwareOrganizationOOP.pdb
 C:\Users\Joel\Desktop\isaulas\SolutionOOP\SoftwareOrganizationOOP\obj\Debug\SoftwareOrganizationOOP.dll
 C:\Users\Joel\Desktop\isaulas\SolutionOOP\SoftwareOrganizationOOP\obj\Debug\SoftwareOrganizationOOP.pdb
+C:\Users\joeld\School\isaulas\SolutionOOP\SoftwareOrganizationOOP\bin\Debug\SoftwareOrganizationOOP.dll
+C:\Users\joeld\School\isaulas\SolutionOOP\SoftwareOrganizationOOP\bin\Debug\SoftwareOrganizationOOP.pdb
+C:\Users\joeld\School\isaulas\SolutionOOP\SoftwareOrganizationOOP\obj\Debug\SoftwareOrganizationOOP.csprojResolveAssemblyReference.cache
+C:\Users\joeld\School\isaulas\SolutionOOP\SoftwareOrganizationOOP\obj\Debug\SoftwareOrganizationOOP.dll
+C:\Users\joeld\School\isaulas\SolutionOOP\SoftwareOrganizationOOP\obj\Debug\SoftwareOrganizationOOP.pdb
+D:\School\IS\isaulas\SolutionOOP\SoftwareOrganizationOOP\bin\Debug\SoftwareOrganizationOOP.dll
+D:\School\IS\isaulas\SolutionOOP\SoftwareOrganizationOOP\bin\Debug\SoftwareOrganizationOOP.pdb
+D:\School\IS\isaulas\SolutionOOP\SoftwareOrganizationOOP\obj\Debug\SoftwareOrganizationOOP.dll
+D:\School\IS\isaulas\SolutionOOP\SoftwareOrganizationOOP\obj\Debug\SoftwareOrganizationOOP.pdb

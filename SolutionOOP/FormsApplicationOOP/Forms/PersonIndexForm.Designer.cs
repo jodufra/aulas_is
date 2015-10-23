@@ -49,7 +49,6 @@
             // personsList
             // 
             this.personsList.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.personsList.FullRowSelect = true;
             this.personsList.GridLines = true;
             this.personsList.Location = new System.Drawing.Point(12, 12);
             this.personsList.MultiSelect = false;

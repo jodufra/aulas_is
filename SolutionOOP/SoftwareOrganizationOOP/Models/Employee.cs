@@ -9,8 +9,8 @@ namespace SoftwareOrganizationOOP.Models
     public abstract class Employee : Person
     {
 
-        double _salary;
-        public double Salary { get { return _salary; } }
+        private double _salary;
+        public double Salary { get { return _salary; } set { _salary = value; } }
 
         public Employee(string firstname, string lastname, DateTime birthdate, double salary)
             : base(firstname, lastname, birthdate)

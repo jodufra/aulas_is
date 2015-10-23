@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SoftwareOrganizationOOP.Models
 {
-    public abstract class Person: IPrintable
+    public abstract class Person : IPrintable
     {
         DateTime _birthdate;
         String _firstname;
@@ -20,6 +20,9 @@ namespace SoftwareOrganizationOOP.Models
                 return (new DateTime(DateTime.Now.Subtract(_birthdate).Ticks)).Year;
             }
         }
+
+        public String FirstName { get { return _firstname; } set { _firstname = value; } }
+        public String LastName { get { return _lastname; } set { _lastname = value; } }
         public DateTime BirthDate { get { return _birthdate; } set { _birthdate = value; } }
         public String Fullname { get { return _firstname + " " + _lastname; } }
 
@@ -37,6 +40,6 @@ namespace SoftwareOrganizationOOP.Models
             return Fullname + ", " + Age + " anos";
         }
 
-        
+
     }
 }

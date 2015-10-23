@@ -11,9 +11,10 @@ namespace SoftwareOrganizationOOP.Models
 
         private string _address;
 
-        private string Address { get { return _address; } }
+        public string Address { get { return _address; } set { _address = value; } }
 
-        public Customer(string firstname, string lastname, DateTime birthdate, string address) : base(firstname, lastname, birthdate)
+        public Customer(string firstname, string lastname, DateTime birthdate, string address)
+            : base(firstname, lastname, birthdate)
         {
             this._address = address;
         }

@@ -6,3 +6,11 @@ c:\users\2121000\documents\visual studio 2013\Projects\SolutionOOP\ConsoleApplic
 c:\users\2121000\documents\visual studio 2013\Projects\SolutionOOP\ConsoleApplicationOOP\obj\Debug\ConsoleApplicationOOP.pdb
 c:\users\2121000\documents\visual studio 2013\Projects\SolutionOOP\ConsoleApplicationOOP\bin\Debug\SoftwareOrganizationOOP.dll
 c:\users\2121000\documents\visual studio 2013\Projects\SolutionOOP\ConsoleApplicationOOP\bin\Debug\SoftwareOrganizationOOP.pdb
+C:\Users\joeld\School\isaulas\SolutionOOP\ConsoleApplicationOOP\bin\Debug\ConsoleApplicationOOP.exe.config
+C:\Users\joeld\School\isaulas\SolutionOOP\ConsoleApplicationOOP\bin\Debug\ConsoleApplicationOOP.exe
+C:\Users\joeld\School\isaulas\SolutionOOP\ConsoleApplicationOOP\bin\Debug\ConsoleApplicationOOP.pdb
+C:\Users\joeld\School\isaulas\SolutionOOP\ConsoleApplicationOOP\bin\Debug\SoftwareOrganizationOOP.dll
+C:\Users\joeld\School\isaulas\SolutionOOP\ConsoleApplicationOOP\bin\Debug\SoftwareOrganizationOOP.pdb
+C:\Users\joeld\School\isaulas\SolutionOOP\ConsoleApplicationOOP\obj\Debug\ConsoleApplicationOOP.csprojResolveAssemblyReference.cache
+C:\Users\joeld\School\isaulas\SolutionOOP\ConsoleApplicationOOP\obj\Debug\ConsoleApplicationOOP.exe
+C:\Users\joeld\School\isaulas\SolutionOOP\ConsoleApplicationOOP\obj\Debug\ConsoleApplicationOOP.pdb

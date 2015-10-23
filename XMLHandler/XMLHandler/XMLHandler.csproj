@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F2D8DA3A-528F-45AC-9B2F-A3C54E9AA5B9}</ProjectGuid>
+    <ProjectGuid>{6D035673-20DC-408B-9577-993121505BFE}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FormsApplicationOOP</RootNamespace>
-    <AssemblyName>FormsApplicationOOP</AssemblyName>
+    <RootNamespace>XMLHandler</RootNamespace>
+    <AssemblyName>XMLHandler</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -44,34 +44,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Forms\IndexForm.cs">
+    <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\IndexForm.Designer.cs">
-      <DependentUpon>IndexForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\PersonDetailForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\PersonDetailForm.Designer.cs">
-      <DependentUpon>PersonDetailForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\PersonIndexForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\PersonIndexForm.Designer.cs">
-      <DependentUpon>PersonIndexForm.cs</DependentUpon>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Forms\IndexForm.resx">
-      <DependentUpon>IndexForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\PersonDetailForm.resx">
-      <DependentUpon>PersonDetailForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\PersonIndexForm.resx">
-      <DependentUpon>PersonIndexForm.cs</DependentUpon>
+    <Compile Include="XmlHandler.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -94,15 +77,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\SoftwareOrganizationOOP\SoftwareOrganizationOOP.csproj">
-      <Project>{a49e05fd-8fda-49f9-bea7-b56b63903ecb}</Project>
-      <Name>SoftwareOrganizationOOP</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Application\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

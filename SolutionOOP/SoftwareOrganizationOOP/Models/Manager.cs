@@ -10,6 +10,11 @@ namespace SoftwareOrganizationOOP.Models
     {
         private List<Programmer> _programmers;
 
+        public List<Programmer> Programmers
+        {
+            get { return _programmers; }
+        }
+
         public int NumberOfProgrammers
         {
             get { return _programmers.Count; }
@@ -17,10 +22,7 @@ namespace SoftwareOrganizationOOP.Models
 
         public Programmer this[int index]
         {
-            get
-            {
-                return _programmers.Count < index ? _programmers.ElementAt(index) : null;
-            }
+            get { return _programmers.Count < index ? _programmers.ElementAt(index) : null; }
         }
 
         public Manager(string firstname, string lastname, DateTime birthdate, double salary)
